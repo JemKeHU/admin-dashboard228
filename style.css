@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    --bg-search-bar: #e2e8f0;
+    --bg-sidebar-buttons: #1992d4;
+    --card-left-side: #f0b429;
 }
 
 .container {
@@ -22,4 +25,46 @@
 
 .main-content {
     background-color: blueviolet;
+}
+
+.magnify-image,
+.bell-image {
+    height: 25px;
+    width: auto;
+}
+
+.user-avatar {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.header-one {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.search-bar {
+    padding-left: 40px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    display: grid;
+    gap: 15px;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--bg-search-bar);
+}
+
+.header-title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    padding-right: 40px;
 }
