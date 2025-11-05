@@ -94,6 +94,7 @@
     display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .account-info {
@@ -105,14 +106,13 @@
 
 .button-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 30px;
 }
 
 .button-container button {
     height: 40px;
-    width: 120px;
     border: none;
     border-radius: 25px;
     font-weight: 600;
