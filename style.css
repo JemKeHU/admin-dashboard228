@@ -214,6 +214,9 @@
     box-shadow: 
     0 3px 5px rgba(0,0,0,0.2),
     3px 0 5px rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 15px;
 }
 
 .announcements,
@@ -264,4 +267,17 @@ hr {
 .trend-nickname,
 .trend-project {
     font-size: 0.8rem;
+}
+
+.action-container img{
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+}
+
+.action-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    gap: 15px;
 }
